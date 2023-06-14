@@ -1,0 +1,36 @@
+body {
+    background-color: #18191a;
+    word-spacing: 2px;
+}
+.main {
+    display: flex;
+    justify-content: space-between;
+}
+.sectionLeft {
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+    width: 30vw;
+    height: 100vh;
+}
+.sectionRight {
+    padding-top: 50px;
+    width: 70vw;
+    height: 100vh;
+    padding-left: 50px;
+}
+
+.profileImage {
+    border-radius: 100%;
+    height: 250px;
+    width:250px;
+}
+
+.iconContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.bi-envelope, .bi-google, .bi-github, .bi-twitter {
+    margin: 10px;
+}
